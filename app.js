@@ -19,6 +19,7 @@ function informationAboutMe1(){
 }
     else if(answer == "" || answer == null||  answer == '' ){alert ("please chose Yas/No Answer")}
     else {alert ("please chose Yas/No Answer")}
+    continue;
 }
 
 
