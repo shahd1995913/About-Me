@@ -1,4 +1,4 @@
-
+'use strict'
 function start(){
     alert ("My name is Shahd Al-Khatib from Irbid. I am 25 years old. I studied computer science at Yarmouk University and graduated at 2017 with a good grade.I trained in the field of programming in Amman andnow I am learning artificial intelligence that depends on machine learningto create smart applications that have the ability to think like humans. My ambition is to join a job that appreciates my skills." )
 }
