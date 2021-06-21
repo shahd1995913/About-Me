@@ -1,4 +1,10 @@
 
+function start(){
+    alert ("My name is Shahd Al-Khatib from Irbid. I am 25 years old. I studied computer science at Yarmouk University and graduated at 2017 with a good grade.I trained in the field of programming in Amman andnow I am learning artificial intelligence that depends on machine learningto create smart applications that have the ability to think like humans. My ambition is to join a job that appreciates my skills." )
+}
+
+start()
+
 function informationAboutMe1(){
     alert ( "welecom to my page , please chose Yas/No Answer in the following Qustion ??" )
     
@@ -58,6 +64,15 @@ function informationAboutMe5(){
     else if(answer5 == "No"){alert ("Not Correct , I trained in programming.")}
 
 }
+
+
+function insertyourname(){
+    let val =prompt('Insert youre name please')
+    alert ('Greeting welcoming'+  '  ' + val)
+    let x = val
+    }
+    insertyourname()
+
 
 
     informationAboutMe1()
