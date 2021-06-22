@@ -10,11 +10,11 @@ function informationAboutMe1(){
     
     let answer = prompt ("Is my name Shahd?")
     
-    if(answer.toLowerCase() == "yas"){alert ("Correct.")
+    if(answer.toLowerCase() == "yas" || answer.toLowerCase() =="y"){alert ("Correct.")
  console.log("Correct.",answer);
 }
     
-    else if(answer.toLowerCase() == "no"){alert ("Not Correct My name is shahd.")
+    else if(answer.toLowerCase() == "no" || answer.toLowerCase() == "n"){alert ("Not Correct My name is shahd.")
     console.log("Not Correct My name is shahd.",answer);
 }
     else if(answer == "" || answer == null||  answer == '' ){alert ("please chose Yas/No Answer")}
@@ -29,11 +29,11 @@ function informationAboutMe2(){
     
     let answer1 = prompt ("Did I study computer science?")
     
-    if(answer1.toLowerCase() == "yas"){alert ("Correct.")
+    if(answer1.toLowerCase() == "yas"|| answer1.toLowerCase() == "y"){alert ("Correct.")
     console.log("Correct.",answer1);
 }
     
-    else if(answer1.toLowerCase() == "no"){alert ("Not Correct , I study computer science.")
+    else if(answer1.toLowerCase() == "no" || answer1.toLowerCase() == "n"){alert ("Not Correct , I study computer science.")
     console.log("Not Correct , I study computer science.",answer1);
 }
     else if(answer1 == "" || answer1 == null||  answer1 == '' ){alert ("please chose Yas/No Answer")}
@@ -47,11 +47,11 @@ function informationAboutMe3(){
     
     let answer3 = prompt ("Did I graduate in 2017 from university")
     
-    if(answer3.toLowerCase() == "yas"){alert ("Correct.")
+    if(answer3.toLowerCase() == "yas" || answer3.toLowerCase() == "y"){alert ("Correct.")
     console.log("Correct.",answer3);
 }
     
-    else if(answer3.toLowerCase() == "no"){alert ("Not Correct , I graduate in 2017 from university.")
+    else if(answer3.toLowerCase() == "no" || answer3.toLowerCase() == "n"){alert ("Not Correct , I graduate in 2017 from university.")
     console.log("Not Correct , I graduate in 2017 from university.",answer3);
 }
     else if(answer3 == "" || answer3 == null||  answer3 == '' ){alert ("please chose Yas/No Answer")}
@@ -63,11 +63,11 @@ function informationAboutMe4(){
     
     let answer4 = prompt ("Do I know about artificial intelligence?")
     
-    if(answer4.toLowerCase() == "yas"){alert ("Correct.")
+    if(answer4.toLowerCase() == "yas" || answer4.toLowerCase() == "y"){alert ("Correct.")
     console.log("Correct.",answer4);
 }
     
-    else if(answer4.toLowerCase() == "no"){alert ("Not Correct , I study the  artificial intelligence.")
+    else if(answer4.toLowerCase() == "no" || answer4.toLowerCase() == "n"){alert ("Not Correct , I study the  artificial intelligence.")
     console.log("Not Correct , I study the  artificial intelligence.",answer4);
 }
 
@@ -82,12 +82,12 @@ function informationAboutMe5(){
     
     let answer5 = prompt ("Have I ever trained in programming?")
     
-    if(answer5.toLowerCase() == "yas"){alert ("Correct.")
+    if(answer5.toLowerCase() == "yas" || answer5.toLowerCase() == "n"){alert ("Correct.")
 
     console.log("Correct.",answer5);
 }
     
-    else if(answer5.toLowerCase() == "no"){alert ("Not Correct , I trained in programming.")
+    else if(answer5.toLowerCase() == "no" || answer5.toLowerCase() == "n"){alert ("Not Correct , I trained in programming.")
     console.log("Not Correct , I trained in programming.",answer5);
 }
     else if(answer5 == "" || answer5 == null||  answer5 == '' ){alert ("please chose Yas/No Answer")}
