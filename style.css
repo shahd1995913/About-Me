@@ -11,7 +11,17 @@ p {
     }
     
     ul {
+        background-color: rgb(252, 241, 229);
+        color: blueviolet;
+        font-size: large;
+        font-style: italic;
+      }
+
+      ol {
         background-color: bisque;
-        list-style-image: url('https://www.iconsdb.com/icons/preview/purple/square-rounded-xxl.png');
+        color: rgb(58, 173, 58);
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
       }
 

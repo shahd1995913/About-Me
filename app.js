@@ -83,7 +83,7 @@ function informationAboutMe5(){
     
     let answer5 = prompt ("Have I ever trained in programming?")
     
-    if(answer5.toLowerCase() == "yas" || answer5.toLowerCase() == "n"){alert ("Correct.")
+    if(answer5.toLowerCase() == "yas" || answer5.toLowerCase() == "y"){alert ("Correct.")
 
     console.log("Correct.",answer5);
 }
@@ -102,7 +102,7 @@ function insertyourname(){
     alert ('Greeting welcoming'+  '  ' + username)
    document.write('Greeting welcoming'+  '  ' + username)
     }
-    insertyourname()
+   
 
 
 
@@ -110,98 +110,175 @@ function insertyourname(){
 
 
 
-
-
-
-
-
-    function guessfun() {
-        let x =prompt('please guess a number between 1 to 10.')
-        if (x >6 && x<=10 )
-        {
-            alert ('too high')
+    // function guessfun() {
+    //     let x =prompt('please guess a number between 1 to 10.')
+    //     if (x >6 && x<=10 )
+    //     {
+    //         alert ('too high')
             
-        }
-    elseif(x >=1 && x<=5 )
-        {
-            alert ('too low')
-        }
+    //     }
+    // else if (x >= 1 && x<= 5 )
+    //     {
+    //         alert ('too low')
+    //     }
     
-        if(x=6)
+    //     if(x==6) {alert ('Correct number Great');}
         
-        {alert ('Correct number Great')}
-     break;
-         }
+    //      }
     
-        guessfun()
-     
-        function guessfun2(){
-            let y =prompt('please guess a number between 1 to 10.')
-         for (y ; y <= 5 && y >= 1; y++) {
-            alert ('too low')
-            alert ('please guess a anthor number')}
-          for (y ; y > 6 && y <= 10; y++) {
-            alert ('too high')
-            alert ('please guess a anthor number')}
-         if(y=6)
-        
-         {alert ('Correct number Great')
-        break;}
-    
-          }
-          guessfun2()
-    
-    
-    
-          function gussbetweenPlaces() {
-            let places = ['london', 'cambodia', 'canada', 'hawaii', 'italy'];
-        
-            for (let i = 0; i < 9; i++) {
-                var userAnsw = prompt('Can you guess my favorite places ? London, Cambodia, Canada, Hawaii, Italy,KSA,UAE,USA,Jordan');
-                var guess = userAnsw.toLowerCase();
-        
-                for (var j = 0; j < places.length; j++){
-                    if (guess == places[j]) {
-                        alert('Congrats you got it right!!!');
-                        score++;
-                        i = 6;
-                        break;
-                    }
-                }
-                if (i!=6){
-                    alert('Sorry wrong answer, try again');
-                }
+    //     guessfun()
+
+
+
+    function guessnumber() {
+         var c = 1;
+         while (c < 5 && num !==6)
+         {
+            var num = parseInt(prompt('Guess my favorite number'));
+            if (num > 6) {
+                alert('You guessed too high! Guess again');
+                c++;
+            } else if (num < 6) {
+                alert('You guessed too low! Guess again');
+                c++;
             }
         }
+        if (num === 6) {
+            alert('That is correct! My favorite number is 6!');
+           c = 5;
+        }
+        alert('That is correct! My favorite number is 6!');
+
+    }
     
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+        // function guessfun2(){
+        
+             
+        //     let y =prompt('please guess a number between 1 to 10.')
+        
+        //     for (i=1; i <= 10; i++)
+        
+        //     {
+
+        //         if (i >6 && x<=10 )
+        
+        //         {
+        
+        //             alert ('too high')
+        
+        //             y =prompt('please guess a number between 1 to 10.')
+        
+        //         }
+        
+        //         else if (i >= 1 && i <= 5 )
+        
+        //         {
+        
+        //             alert ('too low')
+        
+        //             y =prompt('please guess a number between 1 to 10.')
+        
+        //         }
+        
+        //         else if(i===6 || y== 6)
+        //         {alert ('Correct number Great')}
+           
+        //     }
+           
+        //     y =prompt('please guess a number between 1 to 10.')
+             
+        // }
+         
+        // guessfun2()
+    
+    
+    
+        var score = 0;
         function gussbetweenPlaces()
-        alert('My favorite places are:London, Cambodia, Canada, Hawaii, Italy');
-        console.logs('My favorite places are:London, Cambodia, Canada, Hawaii, Italy') 
-        alert('The score you got ' + score + ' correct answers!');
-        console.logs('The score you got ' + score + ' correct answers!');
+        
+        {
+          
+            let places = ['london', 'cambodia', 'canada', 'hawaii', 'italy'];
+        
 
+            for (let v = 0; v < 6; v++) {
+            
+                let userAnsw = prompt('Can you guess my favorite places ? London, Cambodia, Canada, Hawaii, Italy,KSA,UAE,USA,Jordan');
+            
+                let guess = userAnsw.toLowerCase();
+        
+            
+                for (var j = 0; j < places.length; j++){
+            
+                    if (guess == places[j]) {
+            
+                        alert('Congrats you got it right!!!');
+            
+                        score++;
+            
+                        v = 6;
+            
+                      
+                      break;
+            
+                    }
+            
+                }
+            
+                if (v !=6)
+                {
+            
+                    alert('Sorry wrong answer, try again');
+            
+                }
+            
+            }
+            
+            
+        }
+    
+ 
+         
 
+         function Scoreforuser()
+         {
 
+            alert('My favorite places are:London, Cambodia, Canada, Hawaii, Italy');
+            alert('The score you got = ' + score + ' correct answers!');
+            document.write('</br> The score you got = ' + score + ' correct answers!')
+            
+            console.logs("My favorite places are:London, Cambodia, Canada, Hawaii, Italy",userAnsw);
+            
+            console.logs(" The score you got ",score);
 
+         }
 
-
-
-
-
-
-
-
-
-
-
-
+       
+     
 
     informationAboutMe1()
     informationAboutMe2()
     informationAboutMe3()
     informationAboutMe4()
     informationAboutMe5()
-  
-
-
-
+    insertyourname()
+    guessnumber()
+    gussbetweenPlaces()
+    Scoreforuser()
