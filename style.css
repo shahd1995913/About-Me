@@ -1,0 +1,17 @@
+p {
+    color: rgb(55, 0, 255);
+    text-align: center;
+  } 
+
+  h1{
+
+    background-color: rgb(160, 252, 201);
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    ul {
+        background-color: bisque;
+        list-style-image: url('https://www.iconsdb.com/icons/preview/purple/square-rounded-xxl.png');
+      }
+
