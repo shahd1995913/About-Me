@@ -5,6 +5,7 @@ function start(){
 
 start()
 
+
 function informationAboutMe1(){
     alert ( "welecom to my page , please chose Yas/No Answer in the following Qustion ??" )
     
@@ -102,6 +103,30 @@ function insertyourname(){
    document.write('Greeting welcoming'+  '  ' + username)
     }
     insertyourname()
+
+
+    function guessfun(){
+        let x =prompt('please guess a number between 1 to 10.')
+        if (x >6 && x<=10 )
+        {
+            alert ('too high'+  '  ' + username)
+        }
+    elseif(x >=1 && x<=5 )
+        {
+            alert ('too low'+  '  ' + username)
+        }}
+        guessfun()
+     
+        function guessfun2(){
+            let y =prompt('please guess a number between 1 to 10.')
+
+        for (y ; y <= 5 && y >= 1; y++) {
+            alert ('too low')
+            alert ('please guess a anthor number')}
+          for (y ; y > 6 && y <= 10; y++) {
+            alert ('too high')
+            alert ('please guess a anthor number')}
+
 
 
 
