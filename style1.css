@@ -1,10 +1,11 @@
 h1{
 
-background-color: aliceblue;
+background-color: rgb(160, 252, 201);
 font-family: 'Times New Roman', Times, serif;
 
 }
 
 ul {
-    list-style-image: url('sqpurple.gif');
+    background-color: bisque;
+    list-style-image: url('https://www.iconsdb.com/icons/preview/purple/square-rounded-xxl.png');
   }
