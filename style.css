@@ -1,13 +1,15 @@
 p {
-    color: rgb(55, 0, 255);
-    text-align: center;
-  } 
+    color: rgb(185, 8, 162);
+    background-color: azure;
+  border-color: blueviolet;  } 
 
   h1{
 
     background-color: rgb(160, 252, 201);
     font-family: 'Times New Roman', Times, serif;
-    
+    text-align: center;
+    font-size: larger;
+    border-style: solid;
     }
     
     ul {
@@ -15,6 +17,7 @@ p {
         color: blueviolet;
         font-size: large;
         font-style: italic;
+
       }
 
       ol {
@@ -22,6 +25,17 @@ p {
         color: rgb(58, 173, 58);
         font-size: large;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+      }
+
+
+      h4{
+        background-color: rgb(177, 160, 252);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        text-align: center;
+        border-style: solid;
+
 
       }
 
